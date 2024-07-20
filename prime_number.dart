@@ -16,7 +16,7 @@ void main() {
     try {
       number = int.parse(input);
     } catch (error) {
-      print('Your input is not an integer, try again \u{1F641}!');
+      print('Your input is not an integer, try again \u{1F641}!');  // \u{1F641} is the unicode for Slightly Frowning Face Emoji.
       continue;
     }
 
@@ -34,12 +34,13 @@ void main() {
     if (choice == 'yes') {
       continue;
     } else {
-      print('Thank you for using our application \u{1F600}!');
+      print('Thank you for using our application \u{1F600}!');  // \u{1F60A} is the unicode for Smiling Face Emoji.
       break;
     }
   }
 }
 
+// Trial Division Method
 bool checkPrime(int n) {
   if (n <= 1) return false;
   if (n == 2) return true;
