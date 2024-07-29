@@ -16,7 +16,7 @@ void main() {
     try {
       number = int.parse(input);
     } catch (error) {
-      print('Your input is not an integer, try again \u{1F641}!');  // \u{1F641} is the unicode for Slightly Frowning Face Emoji.
+      print('\'$input\' is not an integer, try again \u{1F641}!');  // \u{1F641} is the unicode for Slightly Frowning Face Emoji.
       continue;
     }
 
